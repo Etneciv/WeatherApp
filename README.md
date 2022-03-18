@@ -1,3 +1,8 @@
+# For run de app:
+- Use git clone in your code editor
+- You must be input "npm install"  command  inside the project folder
+- Now, you can run the app with "npm start" command
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
