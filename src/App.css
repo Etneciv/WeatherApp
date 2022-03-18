@@ -1,0 +1,102 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerApp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.inputSearch {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  margin-top: 50px;
+}
+.inputSearch div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inputSearch img {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+}
+.cityText {
+  height: 50px;
+  width: 225px;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+  font-size: 16px;
+}
+.searchButton {
+  transition-duration: 500ms;
+  height: 55px;
+  width: 75px;
+  border: none;
+  background-color: #60df86;
+  font-weight: bold;
+  cursor: pointer;
+}
+.searchButton:hover {
+  transition-duration: 500ms;
+  background-color: #56cf7a;
+}
+
+.infoContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.daysCard {
+  transition-duration: 400ms;
+  width: 120px;
+  height: 170px;
+  margin: 10px;
+  font-size: 13px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.295);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.daysCard:hover {
+  transition-duration: 400ms;
+  background-color: #0000001e;
+}
+.daysCard div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.daysCard div p {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.hotWeather {
+  color: rgb(235, 95, 95);
+}
+.coldWeather {
+  color: rgb(102, 102, 196);
+}
+.daysCard img {
+  filter: drop-shadow(0 0 2px black);
+  width: 40px;
+  height: 40px;
+}
